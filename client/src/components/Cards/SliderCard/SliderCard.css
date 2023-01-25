@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.game-image-slider img {
+    width: 328px;
+    height: 180px;
+    vertical-align: middle;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.game-image-slider img:hover {
+    -webkit-filter: brightness(100%);
+}
+
+.game-image-slider {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.no-image{
+    display: flex;
+    width: 328px;
+    height: 180px;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+}
+
+.no-image h4{
+    width:200px;
+    text-align: center;
+    margin-right: 45px;
+}
+
+
+.single-card-slider {
+    width: 280px;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+
+.favourite-tag-slider {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    padding: 8px 14px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+}
+
+.single-card-slider {
+    transition: all .3s ease;
+}
+
+.single-card-slider:hover {
+    transform: scale(1.06);
+} 
+
+.card-content-slider {
+    width: 230px;
+    padding: 5px 25px 25px 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    /* background: #e8e8e8; */
+    position: relative;
+    color: white;
+    flex-direction: column;
+    transition: heigth .3s ease;
+}
+
+.price-slider {
+    display: inline-block;
+    /* background: #FFD700; */
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 30px;
+    padding: 5px 18px;
+    color: black;
+    font-weight: 900;
+    font-size: 13px;
+    margin-top: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.rating-conteiner{
+    color: white;
+}
+
+.shopping-cart-slider {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.check-plus-slider {
+    padding-left: 5px;
+}
+
+.check {
+    color: #02ac51;
+}
+
+
+.card-content-header-slider {
+    display: flex;
+    justify-content: space-between;
+    color: #001d38;
+    align-items: center;
+}
+
+.price-cart-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card-content-slider h3 {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-content-slider a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.card-footer-slider ul li span {
+    color: #4c4c4c;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.card-footer-slider ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px 50px 0px 0px;
+    margin: 0;
+overflow: hidden;
+float: left;
+}
+
+.card-footer-slider li {
+    padding: 0px 5px;
+   
+}
+
+.star {
+    padding: 0px 2px 0px 2px;
+    color: tomato;
+}
+
+.card-footer-slider ul li i {
+    color: #909090
+}
+
+.red-heart {
+    color: red;
+}
+

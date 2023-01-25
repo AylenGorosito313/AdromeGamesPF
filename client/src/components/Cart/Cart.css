@@ -1,0 +1,155 @@
+
+.container-cart{
+    border-radius: 10px;
+
+    background: rgb(42, 42, 42);
+    display: flex;
+    width: 400px;
+    height: 90px;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.card-cart-container{
+    display: flex;
+    padding: 20px;
+    overflow-y: scroll;
+height: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+.card-cart-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.card-cart-container::-webkit-scrollbar:vertical {
+    width:8px;
+}
+
+.card-cart-container::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.card-cart-container::-webkit-scrollbar:horizontal {
+    height: 0%;
+}
+
+.card-cart-container::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 10px;
+   
+}
+
+.card-cart-container::-webkit-scrollbar-track {
+    border-radius: 10px;  
+} 
+
+
+
+
+
+.cart-products-div::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.cart-products-div::-webkit-scrollbar:vertical {
+    width:1px;
+}
+
+.cart-products-div::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.card-cart-container::-webkit-scrollbar:horizontal {
+    height: 0%;
+}
+
+.cart-products-div::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 200px;
+   
+}
+
+.cart-products-div::-webkit-scrollbar-track {
+    border-radius: 10px;  
+} 
+
+
+
+
+
+
+
+.div-title-delete{
+    padding: 10px;
+    /* flex: auto; */
+    display: flex;
+    /* gap: 38px; */
+    margin-left: auto;
+}
+
+.container-title-cart p{
+    margin-left: 10px;
+}
+
+.delete{
+    border: none;
+    padding: 5px 8px;
+    border-radius: 10px 20px;
+    background-color: #838383;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 12px;
+    transition: all .3s ease;
+}
+
+.delete:hover {
+    /* border-bottom: 1px solid white; */
+    color: #34302e;
+    background-color: white;
+}
+
+.container-title-cart{
+    margin-left: 10px;
+    display: flex;
+    height: 80px;
+}
+
+.subcontainer-img{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cart{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.div-title-delete{
+    padding: 10px;
+}
+
+
+.container-img-game{
+    padding: 10px;
+}
+
+.diplayDelete{
+    display: none;
+}
+
+.price-game{
+    font-weight: 800;
+}

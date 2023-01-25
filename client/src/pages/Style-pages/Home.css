@@ -1,0 +1,114 @@
+.main-container-home {
+  display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    flex-direction: column
+}
+
+.home-slider-games{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-content-home{
+  display: flex;
+    padding: 0 2rem;
+    align-items: center;
+    width: 1300px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.cont-all-cardsmini {
+  height: auto;
+  width: 200px;
+}
+
+.div-home {
+  background-color: #121212 !important;
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.img-background {
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: auto;
+  pointer-events: none;
+  top: -20rem;
+  z-index: 0;
+}
+.div-title-home{
+  display: flex;
+  width: 92%;
+}
+.div-home-card {
+  max-width: 1200px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.container-home-swipper {
+  width: 70%;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.home-slider {
+  width: 92%;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+}
+
+.loading-home {
+  display: flex;
+  width: 1300px;
+  height: 1000px;
+align-items: center;
+ text-align: center;
+  margin-top: 300px;
+  vertical-align: middle;
+  flex-direction: column;
+
+ 
+}
+
+.loadin-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 250px;
+}
+
+
+.div-home-all-games{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.div-home-all-games h2 {
+  font-weight: 900;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
